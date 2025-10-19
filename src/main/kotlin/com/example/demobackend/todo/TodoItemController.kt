@@ -23,7 +23,7 @@ class TodoItemController(val todoItemService: TodoItemsService) {
 //    }
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    fun createTotoItem(
+    fun createTodoItem(
         @RequestBody createTodoItemDto: CreateTodoItemDto
     ): GetTodoItemDto {
         return todoItemService.createTodoItem(createTodoItemDto)

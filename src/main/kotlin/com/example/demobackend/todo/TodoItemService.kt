@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class TodoItemsService(
-	private val todoItemRepository: TodoItemtemRepository
+	private val todoItemRepository: TodoItemRepository
 ) {
 
 	fun createTodoItem(
