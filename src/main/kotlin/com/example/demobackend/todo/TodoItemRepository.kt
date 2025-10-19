@@ -4,4 +4,4 @@ import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface TodoItemtemRepository : JpaRepository<TodoItem, Long> {}
+interface TodoItemtemRepository : JpaRepository<TodoItemEntity, Long> {}
