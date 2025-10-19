@@ -4,7 +4,6 @@ import com.example.demobackend.todo.dtos.CreateTodoItemDto
 import com.example.demobackend.todo.dtos.GetTodoItemDto
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
-import java.util.*
 
 @RestController
 @RequestMapping("/todos")
